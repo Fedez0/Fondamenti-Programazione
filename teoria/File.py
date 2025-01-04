@@ -11,3 +11,6 @@ with open('./files/data.txt') as file:
 with open('./files/data.txt', 'w') as file:
     for _ in range(100):
         file.write('suca\n')
+
+
+with open()#try expect
