@@ -7,3 +7,4 @@ for key,value in studentiVoti.items():
     print(f'{key} : {value}')
 
 #{ expression for item in list if conditional }
+print(studentiVoti['mamma'])#da keyerror

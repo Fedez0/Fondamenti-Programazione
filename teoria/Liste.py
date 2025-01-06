@@ -6,7 +6,7 @@ copiaLista = vetEsempio[:]
 
 reverseLista = vetEsempio[::-1]
 
-crezioneLista = [i**2 for i in range(0,10)]
+crezioneLista = [i**2 for i in range(0,10)]#escluso 10
 
 
 testi=['aaa','ccc','bbb']
