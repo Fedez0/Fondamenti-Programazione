@@ -13,4 +13,8 @@ with open('./files/data.txt', 'w') as file:
         file.write('suca\n')
 
 
-with open()#try expect
+try:
+    with open('stocazzo.txt','w') as file:
+        file.read()
+except:
+    print('file nono trovato')
